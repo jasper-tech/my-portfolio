@@ -1,6 +1,15 @@
 const About = () => (
   <div className="text-center py-16 px-4">
     <h1 className="text-5xl font-bold text-gray-300 mb-8">About Me</h1>
+
+    <div className="mb-8">
+      
+      <img
+        src="/path-to-your-image.jpg" 
+        alt="Afeawo Sandy Jasper"
+        className="w-32 h-32 rounded-full mx-auto object-cover"
+      />
+    </div>
     <p className="text-lg text-gray-300 mb-6">
       Hi, I'm <strong>Afeawo Sandy Jasper</strong>, a passionate Computer Engineer who graduated from the Kwame Nkrumah University of Science and Technology (KNUST) in 2024. I specialize in solving real-world problems through technology and am particularly focused on web development, system design, and engineering solutions.
     </p>
